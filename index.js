@@ -4,7 +4,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const chalk = await import("chalk");
 const fs = require("fs-extra");
 const glob = require("fast-glob");
-const ora = require("ora");
+const ora = await import("ora").then(mod => mod.default);
 const winston = require("winston");
 const i18next = require("i18next");
 const path = require("path");
