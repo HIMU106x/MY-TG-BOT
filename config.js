@@ -1,6 +1,6 @@
 {
   "bot": {
-    "token": "YOUR_TELEGRAM_BOT_TOKEN",
+    "token": "7499446970:AAGsiDMmq6ZGHze6fdsAr-lXkFuH1ysEfR4",
     "prefix": ".",
     "language": "en",
     "admins": [6800909814, ],
