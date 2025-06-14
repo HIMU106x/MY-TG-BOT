@@ -1,7 +1,7 @@
 // index.js
 require("dotenv").config();
 const TelegramBot = require("node-telegram-bot-api");
-const chalk = require("chalk");
+const chalk = await import("chalk");
 const fs = require("fs-extra");
 const glob = require("fast-glob");
 const ora = require("ora");
